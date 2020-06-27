@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "app">
+       <!-- <P class = "item">节点1</P> -->
+    </div>
+   <script src="dom.js"></script> 
+    <script>
+        let div  = createElement('div',{id:"test"},[
+            createElement('p',{},["节点1"])
+        ]);
+        console.log(div);
+    // function creatElement(){
+    //        return {
+    //            tag:"div",
+    //            data:{id:"app"},
+    //            children:[
+    //                {
+    //                    tag:"p",
+    //                    data:{class:"item"},
+    //                    children:['节点1']
+    //                }
+    //            ]
+    //        }
+    //     }
+        // let div = document.createElement('div');
+        // let ret = '';
+        // for(let key in div){
+        //   ret += key + '';
+        // }
+        // console.log(ret);
+    </script src="dom.js"></script> >
+</body>
+</html>
